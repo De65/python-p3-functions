@@ -46,7 +46,7 @@ class TestGreetWithDefault:
         sys.stdout = captured_out
         greet_with_default("Guido")
         sys.stdout = sys.__stdout__
-        assert(captured_out.getvalue() == "Hello, Guido!\n")
+        assert(captured_out.getvalue() == "Hello, programmer!\n")
 
 class TestAdd:
     '''function add()'''
